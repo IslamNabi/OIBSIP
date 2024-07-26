@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landing Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="showPage">
+    <h1>Discover the Beauty of Islamabad</h1>
+    <p>Explore the charm and elegance of Pakistan's stunning capital city</p>
+    <button type="button" class="btn-1">Read About</button>
+  </header>
+
+  <section id="section-1">
+    <h1>About Islamabad</h1>
+    <p>Islamabad, the capital city of Pakistan, is renowned for its stunning beauty and 
+      serene environment. Nestled at the foothills of the Margalla Hills, the city is 
+      characterized by its lush greenery, wide tree-lined streets, and modern architecture. 
+      As the political and administrative hub of Pakistan, Islamabad hosts numerous 
+      government buildings, foreign embassies, and educational institutions. 
+      The city offers a blend of natural beauty and urban development, with attractions 
+      like the Faisal Mosque, Daman-e-Koh, and the Pakistan Monument. 
+      Its well-planned infrastructure, coupled with picturesque landscapes, 
+      makes Islamabad a captivating and peaceful destination.</p>
+  </section>
+
+  <section id="section-2">
+    <h1>Some Cool Stories</h1>
+    <div class="flex-rows">
+      <h2>The Birth of a Capital</h2>
+      <p>
+        In the early 1960s, Pakistan was in search of a new capital city to replace Karachi,
+         which was becoming overcrowded and difficult to manage. After careful consideration,
+          a picturesque site at the foothills of the Margalla Hills was chosen for its
+           strategic location, climate, and beauty. Islamabad was designed by the renowned Greek architect
+            and town planner, Constantinos Apostolou Doxiadis. His vision brought to life a city
+             that balances nature with modernity, incorporating green belts, large parks,
+              and wide avenues, making Islamabad a unique and tranquil capital. The city’s development
+               marked a significant milestone in Pakistan’s history,
+                reflecting the country’s aspirations and growth.</p>
+    </div>
+
+    <div class="flex-rows">
+      <h2>The Faisal Mosque: A Gift from Saudi Arabia</h2>
+      <p>
+        One of Islamabad’s most iconic landmarks, the Faisal Mosque, stands as a symbol of
+         Pakistan’s deep-rooted friendship with Saudi Arabia. Named after King Faisal bin
+          Abdulaziz of Saudi Arabia, who funded its construction, the mosque’s design 
+          was selected through an international competition and brought to life by 
+          Turkish architect Vedat Dalokay. Completed in 1986, the mosque’s modern and 
+          minimalist design departs from traditional domes and minarets, featuring a 
+          striking triangular prayer hall and four towering minarets. The Faisal Mosque 
+          can accommodate over 100,000 worshippers, making it one of the largest in the 
+          world, and its unique architecture continues to attract visitors from around
+           the globe.</p>
+    </div>
+    
+    <div class="flex-rows">
+      <h2>The Enchanted Trail of Daman-e-Koh</h2>
+      <p>
+        Daman-e-Koh, a popular viewpoint in the Margalla Hills, offers breathtaking
+         panoramic views of Islamabad. The journey to this scenic spot is as enchanting 
+         as the destination itself. As visitors ascend the winding trails, they are 
+         surrounded by lush forests and diverse wildlife, including monkeys, exotic birds, 
+         and even the occasional leopard. The viewpoint provides a spectacular vista of 
+         the city, especially at sunset when the sky is painted in hues of orange and pink. 
+         Local legend has it that Daman-e-Koh was once a retreat for ancient sages and 
+         mystics who sought peace and inspiration in the hills. Today, it remains a 
+         beloved spot for both locals and tourists seeking a tranquil escape from the 
+         hustle and bustle of city life.</p>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>@IslamAbad 2024 &copy;</p>
+  </footer>
+</body>
+</html>
