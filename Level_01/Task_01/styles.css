@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f0f0f0;
+}
+
+.showPage {
+  background: url(../images/islamabad.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+  position: relative;
+}
+
+.showPage::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.showPage h1, .showPage p, .btn-1 {
+  z-index: 1;
+}
+
+.showPage h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.showPage p {
+  font-size: 1.7rem;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn-1 {
+  background: linear-gradient(135deg, #ff9966, #ff5e62);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  border-radius: 30px;
+  transition: all .3s ease-in-out;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-1:hover {
+  background: linear-gradient(135deg, #ff5e62, #ff9966);
+  transform: scale(1.1);
+}
+
+#section-1, #section-2 {
+  padding: 80px 20px;
+  text-align: center;
+  background: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+#section-1 h1, #section-2 h1 {
+  font-size: 2.8rem;
+  margin-bottom: 25px;
+  color: #444;
+}
+
+#section-1 p, #section-2 p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  color: #666;
+}
+
+.flex-rows {
+  margin-bottom: 40px;
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.flex-rows:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.flex-rows h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.flex-rows p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666;
+}
+
+footer {
+  min-height: 100px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 1.1rem;
+}
